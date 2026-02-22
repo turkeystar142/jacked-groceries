@@ -1,0 +1,100 @@
+{{ define "main" }}
+<section class="page-header">
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+</section>
+
+<!-- Table 1: Weekly Grocery Shopping List -->
+<section class="ref-section">
+  <h3>Weekly Grocery Shopping List</h3>
+  <p>Protein goal and calorie deficit per week:</p>
+  <div class="table-scroll">
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Food</th>
+          <th>Weekly Quantity</th>
+          <th>Protein (g)</th>
+          <th>Calories / Week</th>
+          <th>Cal / 100g Protein</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $.Site.Data.shopping_list.items }}
+        <tr>
+          <td>{{ .category }}</td>
+          <td>{{ .food }}</td>
+          <td><strong>{{ .weeklyQuantity }}</strong></td>
+          <td>{{ .protein }}</td>
+          <td>{{ .caloriesPerWeek }}</td>
+          <td>{{ .caloriesPer100gProtein }}</td>
+          <td>{{ .purpose }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Table 2: Suitable Options per Category -->
+<section class="ref-section">
+  <h3>Suitable Options per Category</h3>
+  <p>To ease grocery shopping decisions:</p>
+  <div class="table-scroll">
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Base Food</th>
+          <th>Suitable Options</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $.Site.Data.food_options.categories }}
+        <tr>
+          <td>{{ .category }}</td>
+          <td>{{ .baseFood }}</td>
+          <td>{{ delimit .options ", " }}</td>
+          <td>{{ .notes }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Table 3: Daily Portioned Intake -->
+<section class="ref-section">
+  <h3>Daily Portioned Intake</h3>
+  <p>To meet protein goal under prescribed calorie deficit:</p>
+  <div class="table-scroll">
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th>Food</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $.Site.Data.daily_intake.items }}
+        {{ $amt := .dailyAmount }}
+        {{ $prep := .preparation }}
+        <tr>
+          <td>{{ .food }}{{ with $prep }} ({{ . }}){{ end }}</td>
+          {{ range (seq 7) }}<td>{{ $amt }}</td>{{ end }}
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "category": "Primary Protein",
+      "baseFood": "Chicken breast",
+      "options": ["Chicken breast", "Chicken tenderloins", "Lean ground chicken", "Turkey breast", "Lean turkey mince", "Pork loin"],
+      "notes": "Keep skin removed for lower calories"
+    },
+    {
+      "category": "Primary Protein",
+      "baseFood": "White fish",
+      "options": ["Cod", "Tilapia", "Pollock", "Haddock", "Hake", "Basa", "Flounder"],
+      "notes": "Very lean protein sources"
+    },
+    {
+      "category": "Primary Protein",
+      "baseFood": "Whey isolate powder",
+      "options": ["Unflavored whey isolate", "Vanilla whey isolate", "Chocolate whey isolate", "Whey concentrate", "Casein protein"],
+      "notes": "Mix with water for lowest calories"
+    },
+    {
+      "category": "Primary Protein",
+      "baseFood": "Eggs",
+      "options": ["Large eggs", "Medium eggs", "Whole eggs", "Egg whites"],
+      "notes": "Egg whites reduce calories"
+    },
+    {
+      "category": "Dairy",
+      "baseFood": "Nonfat Greek yogurt",
+      "options": ["0% Greek yogurt", "Fat-free yogurt", "Strained yogurt", "Low-fat Greek yogurt"],
+      "notes": "Aim for \u226510 g protein per 100 g"
+    },
+    {
+      "category": "Fiber",
+      "baseFood": "Oats",
+      "options": ["Rolled oats", "Quick oats", "Steel-cut oats", "Barley", "Whole-grain cereal (low sugar)"],
+      "notes": "Plain versions best"
+    },
+    {
+      "category": "Fiber",
+      "baseFood": "Frozen vegetables",
+      "options": ["Broccoli", "Cauliflower", "Spinach", "Green beans", "Carrots", "Zucchini", "Mixed vegetables"],
+      "notes": "Low-calorie high-volume foods"
+    },
+    {
+      "category": "Fiber",
+      "baseFood": "Fresh vegetables",
+      "options": ["Tomatoes", "Cucumbers", "Lettuce", "Peppers", "Onions", "Cabbage", "Eggplant"],
+      "notes": "Mix colors for nutrients"
+    },
+    {
+      "category": "Healthy Fat",
+      "baseFood": "Olive oil",
+      "options": ["Extra virgin olive oil", "Regular olive oil", "Avocado oil", "Canola oil"],
+      "notes": "Use small amounts"
+    },
+    {
+      "category": "Healthy Fat",
+      "baseFood": "Salmon",
+      "options": ["Salmon", "Sardines", "Mackerel", "Trout"],
+      "notes": "Provides omega-3 fats"
+    },
+    {
+      "category": "Carbohydrates",
+      "baseFood": "Rice or potatoes",
+      "options": ["White rice", "Brown rice", "Jasmine rice", "White potatoes", "Red potatoes", "Sweet potatoes"],
+      "notes": "Similar calories per weight"
+    },
+    {
+      "category": "Carbohydrates",
+      "baseFood": "Fruit",
+      "options": ["Apples", "Bananas", "Oranges", "Pineapple", "Mango", "Papaya", "Watermelon", "Strawberries", "Melon", "Grapes"],
+      "notes": "Any mix works"
+    }
+  ]
+}

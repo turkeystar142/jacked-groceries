@@ -1,3 +1,28 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jacked Groceries'
+theme = 'simpletheme'
+
+[params]
+  description = 'Weekly Shopping List & Daily Intake Tracker'
+  homeHeading = 'Jacked Groceries'
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Shopping List'
+  url = '/shopping-list/'
+  weight = 2
+
+[[menu.main]]
+  name = 'Daily Meals'
+  url = '/daily-meals/'
+  weight = 3
+
+[[menu.main]]
+  name = 'Reference'
+  url = '/reference/'
+  weight = 4

@@ -1,0 +1,44 @@
+{{ define "main" }}
+<section class="page-header">
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+</section>
+
+<div class="tracker-controls">
+  <button id="reset-day" class="btn-reset">Reset Day</button>
+</div>
+
+<div class="daily-meals-intro">
+  <p>Enter consumed amounts to track your daily progress. The same targets apply every day.</p>
+</div>
+
+<table class="daily-meals-table">
+  <thead>
+    <tr>
+      <th>Food</th>
+      <th>Preparation</th>
+      <th>Target</th>
+      <th>Consumed</th>
+      <th>Remaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Site.Data.daily_intake.items }}
+    <tr data-target="{{ .targetValue }}" data-unit="{{ .unit }}">
+      <td>{{ .food }}</td>
+      <td>{{ if .preparation }}<span class="prep-note">{{ .preparation }}</span>{{ else }}&mdash;{{ end }}</td>
+      <td>{{ .dailyAmount }}</td>
+      <td>
+        <input type="number" class="consumed-input" min="0" step="1" value="" placeholder="0">
+        <span class="unit-label">{{ .unit }}</span>
+      </td>
+      <td class="remaining-cell remaining-positive">{{ .dailyAmount }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "js/daily-tracker.js" | relURL }}"></script>
+{{ end }}

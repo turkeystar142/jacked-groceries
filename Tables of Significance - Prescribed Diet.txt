@@ -1,0 +1,47 @@
+# Weekly Grocery Shopping List, providing protein goal and calorie deficit per week:
+| Category        | Food                | Weekly Quantity     | Protein (g) | Calories / Week | Calories per 100 g Protein | Purpose                |
+| --------------- | ------------------- | ------------------- | ----------- | --------------- | -------------------------- | ---------------------- |
+| Primary Protein | Chicken breast      | **1.7 kg**          | ~370 g      | ~1870 kcal      | ~500 kcal                  | Main protein source    |
+| Primary Protein | White fish          | **800 g**           | ~175 g      | ~800 kcal       | ~460 kcal                  | Lean protein           |
+| Primary Protein | Whey isolate powder | **300 g**           | ~255 g      | ~1200 kcal      | ~400 kcal                  | Most efficient protein |
+| Primary Protein | Eggs                | **8 eggs (~480 g)** | ~48 g       | ~660 kcal       | ~1100 kcal                 | Nutrients + fats       |
+| Dairy           | Nonfat Greek yogurt | **1.2 kg**          | ~120 g      | ~720 kcal       | ~600 kcal                  | Calcium + protein      |
+| Fiber           | Oats                | **200 g**           | ~26 g       | ~780 kcal       | ~3000 kcal                 | Fiber                  |
+| Fiber           | Frozen vegetables   | **2.5 kg**          | ~75 g       | ~750 kcal       | ~1000 kcal                 | High volume foods      |
+| Fiber           | Fresh vegetables    | **1.5 kg**          | ~30 g       | ~350 kcal       | ~1200 kcal                 | Vitamins               |
+| Healthy Fat     | Olive oil           | **60 ml**           | 0 g         | ~480 kcal       | —                          | Essential fats         |
+| Healthy Fat     | Salmon              | **200 g**           | ~40 g       | ~400 kcal       | ~900 kcal                  | Omega-3 fats           |
+| Carbohydrates   | Rice or potatoes    | **500 g**           | ~10 g       | ~550 kcal       | ~6000 kcal                 | Small energy source    |
+| Carbohydrates   | Fruit               | **1 kg**            | ~5 g        | ~500 kcal       | ~10000 kcal                | Vitamins               |
+
+# Suitable options of each food category, to ease in grocery shopping decisions:
+| Category        | Base Food           | Suitable Options                                                                                        | Notes                                |
+| --------------- | ------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| Primary Protein | Chicken breast      | Chicken breast, chicken tenderloins, lean ground chicken, turkey breast, lean turkey mince, pork loin   | Keep skin removed for lower calories |
+| Primary Protein | White fish          | Cod, tilapia, pollock, haddock, hake, basa, flounder                                                    | Very lean protein sources            |
+| Primary Protein | Whey isolate powder | Unflavored whey isolate, vanilla whey isolate, chocolate whey isolate, whey concentrate, casein protein | Mix with water for lowest calories   |
+| Primary Protein | Eggs                | Large eggs, medium eggs, whole eggs, egg whites                                                         | Egg whites reduce calories           |
+| Dairy           | Nonfat Greek yogurt | 0% Greek yogurt, fat-free yogurt, strained yogurt, low-fat Greek yogurt                                 | Aim for ≥10 g protein per 100 g      |
+| Fiber           | Oats                | Rolled oats, quick oats, steel-cut oats, barley, whole-grain cereal (low sugar)                         | Plain versions best                  |
+| Fiber           | Frozen vegetables   | Broccoli, cauliflower, spinach, green beans, carrots, zucchini, mixed vegetables                        | Low-calorie high-volume foods        |
+| Fiber           | Fresh vegetables    | Tomatoes, cucumbers, lettuce, peppers, onions, cabbage, eggplant                                        | Mix colors for nutrients             |
+| Healthy Fat     | Olive oil           | Extra virgin olive oil, regular olive oil, avocado oil, canola oil                                      | Use small amounts                    |
+| Healthy Fat     | Salmon              | Salmon, sardines, mackerel, trout                                                                       | Provides omega-3 fats                |
+| Carbohydrates   | Rice or potatoes    | White rice, brown rice, jasmine rice, white potatoes, red potatoes, sweet potatoes                      | Similar calories per weight          |
+| Carbohydrates   | Fruit               | Apples, bananas, oranges, pineapple, mango, papaya, watermelon, strawberries, melon, grapes             | Any mix works                        |
+
+Daily Portioned Intake of Foods, to meet Protein Goal under prescribed calorie deficit:
+| Food                   | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| -----------------------| ------ | ------- | --------- | -------- | ------ | -------- | ------ |
+| Chicken breast(raw)    | 240 g  | 240 g   | 240 g     | 240 g    | 240 g  | 240 g    | 240 g  |
+| White fish(raw)        | 115 g  | 115 g   | 115 g     | 115 g    | 115 g  | 115 g    | 115 g  |
+| Whey isolate(dry)      | 43 g   | 43 g    | 43 g      | 43 g     | 43 g   | 43 g     | 43 g   |
+| Eggs                   | 1 egg  | 1 egg   | 1 egg     | 1 egg    | 1 egg  | 1 egg    | 1 egg  |
+| Greek yogurt           | 170 g  | 170 g   | 170 g     | 170 g    | 170 g  | 170 g    | 170 g  |
+| Oats(dry)              | 30 g   | 30 g    | 30 g      | 30 g     | 30 g   | 30 g     | 30 g   |
+| Frozen vegetables(raw) | 360 g  | 360 g   | 360 g     | 360 g    | 360 g  | 360 g    | 360 g  |
+| Fresh vegetables(raw)  | 215 g  | 215 g   | 215 g     | 215 g    | 215 g  | 215 g    | 215 g  |
+| Olive oil              | 8–9 ml | 8–9 ml  | 8–9 ml    | 8–9 ml   | 8–9 ml | 8–9 ml   | 8–9 ml |
+| Salmon(raw)            | 30 g   | 30 g    | 30 g      | 30 g     | 30 g   | 30 g     | 30 g   |
+| Rice/pot(dry/raw)      | 70 g   | 70 g    | 70 g      | 70 g     | 70 g   | 70 g     | 70 g   |
+| Fruit(cut)             | 140 g  | 140 g   | 140 g     | 140 g    | 140 g  | 140 g    | 140 g  |

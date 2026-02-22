@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "category": "Primary Protein",
+      "food": "Chicken breast",
+      "weeklyQuantity": "1.7 kg",
+      "protein": "~370 g",
+      "caloriesPerWeek": "~1870 kcal",
+      "caloriesPer100gProtein": "~500 kcal",
+      "purpose": "Main protein source"
+    },
+    {
+      "category": "Primary Protein",
+      "food": "White fish",
+      "weeklyQuantity": "800 g",
+      "protein": "~175 g",
+      "caloriesPerWeek": "~800 kcal",
+      "caloriesPer100gProtein": "~460 kcal",
+      "purpose": "Lean protein"
+    },
+    {
+      "category": "Primary Protein",
+      "food": "Whey isolate powder",
+      "weeklyQuantity": "300 g",
+      "protein": "~255 g",
+      "caloriesPerWeek": "~1200 kcal",
+      "caloriesPer100gProtein": "~400 kcal",
+      "purpose": "Most efficient protein"
+    },
+    {
+      "category": "Primary Protein",
+      "food": "Eggs",
+      "weeklyQuantity": "8 eggs (~480 g)",
+      "protein": "~48 g",
+      "caloriesPerWeek": "~660 kcal",
+      "caloriesPer100gProtein": "~1100 kcal",
+      "purpose": "Nutrients + fats"
+    },
+    {
+      "category": "Dairy",
+      "food": "Nonfat Greek yogurt",
+      "weeklyQuantity": "1.2 kg",
+      "protein": "~120 g",
+      "caloriesPerWeek": "~720 kcal",
+      "caloriesPer100gProtein": "~600 kcal",
+      "purpose": "Calcium + protein"
+    },
+    {
+      "category": "Fiber",
+      "food": "Oats",
+      "weeklyQuantity": "200 g",
+      "protein": "~26 g",
+      "caloriesPerWeek": "~780 kcal",
+      "caloriesPer100gProtein": "~3000 kcal",
+      "purpose": "Fiber"
+    },
+    {
+      "category": "Fiber",
+      "food": "Frozen vegetables",
+      "weeklyQuantity": "2.5 kg",
+      "protein": "~75 g",
+      "caloriesPerWeek": "~750 kcal",
+      "caloriesPer100gProtein": "~1000 kcal",
+      "purpose": "High volume foods"
+    },
+    {
+      "category": "Fiber",
+      "food": "Fresh vegetables",
+      "weeklyQuantity": "1.5 kg",
+      "protein": "~30 g",
+      "caloriesPerWeek": "~350 kcal",
+      "caloriesPer100gProtein": "~1200 kcal",
+      "purpose": "Vitamins"
+    },
+    {
+      "category": "Healthy Fat",
+      "food": "Olive oil",
+      "weeklyQuantity": "60 ml",
+      "protein": "0 g",
+      "caloriesPerWeek": "~480 kcal",
+      "caloriesPer100gProtein": "\u2014",
+      "purpose": "Essential fats"
+    },
+    {
+      "category": "Healthy Fat",
+      "food": "Salmon",
+      "weeklyQuantity": "200 g",
+      "protein": "~40 g",
+      "caloriesPerWeek": "~400 kcal",
+      "caloriesPer100gProtein": "~900 kcal",
+      "purpose": "Omega-3 fats"
+    },
+    {
+      "category": "Carbohydrates",
+      "food": "Rice or potatoes",
+      "weeklyQuantity": "500 g",
+      "protein": "~10 g",
+      "caloriesPerWeek": "~550 kcal",
+      "caloriesPer100gProtein": "~6000 kcal",
+      "purpose": "Small energy source"
+    },
+    {
+      "category": "Carbohydrates",
+      "food": "Fruit",
+      "weeklyQuantity": "1 kg",
+      "protein": "~5 g",
+      "caloriesPerWeek": "~500 kcal",
+      "caloriesPer100gProtein": "~10000 kcal",
+      "purpose": "Vitamins"
+    }
+  ]
+}

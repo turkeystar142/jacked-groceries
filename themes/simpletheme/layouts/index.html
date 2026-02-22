@@ -1,12 +1,23 @@
 {{ define "main" }}
-  <h2>{{ if .Site.Params.homeHeading }}{{ .Site.Params.homeHeading }}{{ else }}{{ .Site.Title }}{{ end }}</h2>
-  {{ if .Pages }}
-    <ul>
-      {{ range .Pages }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<section class="home-hero">
+  <h2>{{ .Site.Params.homeHeading }}</h2>
+  <p class="home-subtitle">Your weekly meal prep companion. Buy smart, eat right, get jacked.</p>
+</section>
+
+<section class="home-cards">
+  {{ range .Site.Menus.main }}
+    {{ if ne .URL "/" }}
+    <a href="{{ .URL }}" class="home-card">
+      <h3>{{ .Name }}</h3>
+      {{ if eq .Name "Shopping List" }}
+        <p>Weekly grocery checklist with quantities and substitution options</p>
+      {{ else if eq .Name "Daily Meals" }}
+        <p>Track your daily portioned intake against targets</p>
+      {{ else if eq .Name "Reference" }}
+        <p>Complete nutritional data tables for your prescribed diet</p>
       {{ end }}
-    </ul>
-  {{ else }}
-    <p>No pages yet.</p>
+    </a>
+    {{ end }}
   {{ end }}
+</section>
 {{ end }}

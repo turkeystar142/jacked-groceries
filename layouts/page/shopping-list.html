@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="page-header">
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+</section>
+
+<div class="shopping-controls">
+  <button id="reset-checkboxes" class="btn-reset">Reset All Checkboxes</button>
+</div>
+
+{{ $options := $.Site.Data.food_options.categories }}
+{{ $currentCategory := "" }}
+
+{{ range $index, $item := $.Site.Data.shopping_list.items }}
+  {{ if ne $item.category $currentCategory }}
+    {{ if ne $currentCategory "" }}
+        </tbody>
+      </table>
+    </div>
+    {{ end }}
+    {{ $currentCategory = $item.category }}
+    <div class="shopping-category">
+      <h3 class="category-heading">{{ $item.category }}</h3>
+      <table class="shopping-table">
+        <thead>
+          <tr>
+            <th class="col-check"></th>
+            <th>Food</th>
+            <th>Weekly Qty</th>
+            <th>Protein</th>
+            <th>Purpose</th>
+            <th>Options / Substitutions</th>
+          </tr>
+        </thead>
+        <tbody>
+  {{ end }}
+          <tr>
+            <td class="col-check"><input type="checkbox" class="shopping-checkbox"></td>
+            <td>{{ $item.food }}</td>
+            <td><strong>{{ $item.weeklyQuantity }}</strong></td>
+            <td>{{ $item.protein }}</td>
+            <td>{{ $item.purpose }}</td>
+            <td>
+              {{ range $options }}
+                {{ if eq .baseFood $item.food }}
+                  <span class="options-list">{{ delimit .options ", " }}</span>
+                  {{ with .notes }}<br><em class="options-note">{{ . }}</em>{{ end }}
+                {{ end }}
+              {{ end }}
+            </td>
+          </tr>
+{{ end }}
+
+{{ if ne $currentCategory "" }}
+        </tbody>
+      </table>
+    </div>
+{{ end }}
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "js/shopping-list.js" | relURL }}"></script>
+{{ end }}

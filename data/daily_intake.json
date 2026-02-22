@@ -1,0 +1,16 @@
+{
+  "items": [
+    { "food": "Chicken breast", "preparation": "raw", "dailyAmount": "240 g", "targetValue": 240, "unit": "g" },
+    { "food": "White fish", "preparation": "raw", "dailyAmount": "115 g", "targetValue": 115, "unit": "g" },
+    { "food": "Whey isolate", "preparation": "dry", "dailyAmount": "43 g", "targetValue": 43, "unit": "g" },
+    { "food": "Eggs", "preparation": "", "dailyAmount": "1 egg", "targetValue": 1, "unit": "egg" },
+    { "food": "Greek yogurt", "preparation": "", "dailyAmount": "170 g", "targetValue": 170, "unit": "g" },
+    { "food": "Oats", "preparation": "dry", "dailyAmount": "30 g", "targetValue": 30, "unit": "g" },
+    { "food": "Frozen vegetables", "preparation": "raw", "dailyAmount": "360 g", "targetValue": 360, "unit": "g" },
+    { "food": "Fresh vegetables", "preparation": "raw", "dailyAmount": "215 g", "targetValue": 215, "unit": "g" },
+    { "food": "Olive oil", "preparation": "", "dailyAmount": "8\u20139 ml", "targetValue": 9, "unit": "ml" },
+    { "food": "Salmon", "preparation": "raw", "dailyAmount": "30 g", "targetValue": 30, "unit": "g" },
+    { "food": "Rice/potatoes", "preparation": "dry/raw", "dailyAmount": "70 g", "targetValue": 70, "unit": "g" },
+    { "food": "Fruit", "preparation": "cut", "dailyAmount": "140 g", "targetValue": 140, "unit": "g" }
+  ]
+}
