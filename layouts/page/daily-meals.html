@@ -18,16 +18,20 @@
       <th>Food</th>
       <th>Preparation</th>
       <th>Target</th>
+      <th>Protein</th>
+      <th>Calories</th>
       <th>Consumed</th>
       <th>Remaining</th>
     </tr>
   </thead>
   <tbody>
     {{ range $.Site.Data.daily_intake.items }}
-    <tr data-target="{{ .targetValue }}" data-unit="{{ .unit }}">
+    <tr data-target="{{ .targetValue }}" data-unit="{{ .unit }}" data-protein="{{ .dailyProtein }}" data-cal="{{ .dailyCal }}">
       <td>{{ .food }}</td>
       <td>{{ if .preparation }}<span class="prep-note">{{ .preparation }}</span>{{ else }}&mdash;{{ end }}</td>
       <td>{{ .dailyAmount }}</td>
+      <td>{{ .dailyProtein }} g</td>
+      <td>{{ .dailyCal }} kcal</td>
       <td>
         <input type="number" class="consumed-input" min="0" step="1" value="" placeholder="0">
         <span class="unit-label">{{ .unit }}</span>
@@ -36,6 +40,17 @@
     </tr>
     {{ end }}
   </tbody>
+  <tfoot>
+    <tr class="totals-row">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td id="total-protein"><strong>0 / 165 g</strong></td>
+      <td id="total-cal"><strong>0 / 1293 kcal</strong></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tfoot>
 </table>
 {{ end }}
 
