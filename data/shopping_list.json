@@ -46,6 +46,15 @@
       "purpose": "Calcium + protein"
     },
     {
+      "category": "Dairy",
+      "food": "Feta Cheese",
+      "weeklyQuantity": "665 g",
+      "protein": "~117 g",
+      "caloriesPerWeek": "~1424 kcal",
+      "caloriesPer100gProtein": "~1217 kcal",
+      "purpose": "Calcium + protein"
+    },
+    {
       "category": "Fiber",
       "food": "Oats",
       "weeklyQuantity": "200 g",
@@ -97,6 +106,15 @@
       "protein": "~10 g",
       "caloriesPerWeek": "~550 kcal",
       "caloriesPer100gProtein": "~6000 kcal",
+      "purpose": "Small energy source"
+    },
+    {
+      "category": "Carbohydrates",
+      "food": "Breads",
+      "weeklyQuantity": "294 g",
+      "protein": "~21 g",
+      "caloriesPerWeek": "~735 kcal",
+      "caloriesPer100gProtein": "~3500 kcal",
       "purpose": "Small energy source"
     },
     {

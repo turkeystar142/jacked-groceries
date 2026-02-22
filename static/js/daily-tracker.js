@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var rows = document.querySelectorAll('.daily-meals-table tbody tr');
   var totalProteinEl = document.getElementById('total-protein');
   var totalCalEl = document.getElementById('total-cal');
-  var TOTAL_PROTEIN_TARGET = 165;
-  var TOTAL_CAL_TARGET = 1293;
+  var TOTAL_PROTEIN_TARGET = 185;
+  var TOTAL_CAL_TARGET = 1601;
 
   function saveState() {
     var consumed = {};

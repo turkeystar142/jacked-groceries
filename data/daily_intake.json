@@ -5,12 +5,14 @@
     { "food": "Whey isolate", "preparation": "dry", "dailyAmount": "43 g", "targetValue": 43, "unit": "g", "dailyProtein": 36, "dailyCal": 171 },
     { "food": "Eggs", "preparation": "", "dailyAmount": "1 egg", "targetValue": 1, "unit": "egg", "dailyProtein": 7, "dailyCal": 94 },
     { "food": "Greek yogurt", "preparation": "", "dailyAmount": "170 g", "targetValue": 170, "unit": "g", "dailyProtein": 17, "dailyCal": 103 },
+    { "food": "Feta Cheese", "preparation": "", "dailyAmount": "95 g", "targetValue": 95, "unit": "g", "dailyProtein": 17, "dailyCal": 203 },
     { "food": "Oats", "preparation": "dry", "dailyAmount": "30 g", "targetValue": 30, "unit": "g", "dailyProtein": 4, "dailyCal": 111 },
     { "food": "Frozen vegetables", "preparation": "raw", "dailyAmount": "360 g", "targetValue": 360, "unit": "g", "dailyProtein": 11, "dailyCal": 107 },
     { "food": "Fresh vegetables", "preparation": "raw", "dailyAmount": "215 g", "targetValue": 215, "unit": "g", "dailyProtein": 4, "dailyCal": 50 },
     { "food": "Olive oil", "preparation": "", "dailyAmount": "8\u20139 ml", "targetValue": 9, "unit": "ml", "dailyProtein": 0, "dailyCal": 69 },
     { "food": "Salmon", "preparation": "raw", "dailyAmount": "30 g", "targetValue": 30, "unit": "g", "dailyProtein": 6, "dailyCal": 57 },
     { "food": "Rice/potatoes", "preparation": "dry/raw", "dailyAmount": "70 g", "targetValue": 70, "unit": "g", "dailyProtein": 1, "dailyCal": 79 },
+    { "food": "Bread", "preparation": "", "dailyAmount": "42 g", "targetValue": 42, "unit": "g", "dailyProtein": 3, "dailyCal": 105 },
     { "food": "Fruit", "preparation": "cut", "dailyAmount": "140 g", "targetValue": 140, "unit": "g", "dailyProtein": 1, "dailyCal": 71 }
   ]
 }
