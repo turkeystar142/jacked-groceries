@@ -294,6 +294,45 @@ header .site-desc {
   box-shadow: 0 0 0 2px rgba(217, 158, 115, 0.3);
 }
 
+.custom-row {
+  background: var(--color-tan-light) !important;
+}
+
+.custom-input {
+  width: 4.5rem;
+  padding: 0.25rem 0.35rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: var(--color-tan);
+  box-shadow: 0 0 0 2px rgba(217, 158, 115, 0.3);
+}
+
+.custom-food {
+  width: 7rem;
+}
+
+.custom-prep {
+  width: 4rem;
+}
+
+.custom-target,
+.custom-protein,
+.custom-cal {
+  width: 3.5rem;
+  text-align: right;
+}
+
+.custom-unit {
+  width: 2.5rem !important;
+  text-align: center;
+}
+
 .remaining-positive {
   color: #2e7d32;
   font-weight: 500;

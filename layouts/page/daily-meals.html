@@ -39,6 +39,20 @@
       <td class="remaining-cell remaining-positive">{{ .dailyAmount }}</td>
     </tr>
     {{ end }}
+    {{ range seq 6 }}
+    <tr class="custom-row" data-custom-index="{{ sub . 1 }}" data-target="0" data-unit="g" data-protein="0" data-cal="0">
+      <td><input type="text" class="custom-input custom-food" placeholder="Custom item"></td>
+      <td><input type="text" class="custom-input custom-prep" placeholder="—"></td>
+      <td><input type="number" class="custom-input custom-target" min="0" step="1" placeholder="0"> <input type="text" class="custom-input custom-unit" value="g" style="width:2.5rem"></td>
+      <td><input type="number" class="custom-input custom-protein" min="0" step="1" placeholder="0"> g</td>
+      <td><input type="number" class="custom-input custom-cal" min="0" step="1" placeholder="0"> kcal</td>
+      <td>
+        <input type="number" class="consumed-input" min="0" step="1" value="" placeholder="0">
+        <span class="unit-label">g</span>
+      </td>
+      <td class="remaining-cell remaining-zero">&mdash;</td>
+    </tr>
+    {{ end }}
   </tbody>
   <tfoot>
     <tr class="totals-row">
