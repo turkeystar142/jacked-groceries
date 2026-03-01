@@ -164,6 +164,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Clear row buttons
+  customRows.forEach(function (row) {
+    var clearBtn = row.querySelector('.btn-clear-row');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function () {
+        row.querySelector('.custom-food').value = '';
+        row.querySelector('.custom-prep').value = '';
+        row.querySelector('.custom-target').value = '';
+        row.querySelector('.custom-unit').value = 'g';
+        row.querySelector('.custom-protein').value = '';
+        row.querySelector('.custom-cal').value = '';
+        row.querySelector('.consumed-input').value = '';
+        syncCustomRowAttributes(row);
+        updateRemaining(row);
+        updateTotals();
+        saveCustomState();
+      });
+    }
+  });
+
   // Reset button
   var resetBtn = document.getElementById('reset-day');
   if (resetBtn) {

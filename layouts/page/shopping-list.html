@@ -16,11 +16,13 @@
     {{ if ne $currentCategory "" }}
         </tbody>
       </table>
+      </div>
     </div>
     {{ end }}
     {{ $currentCategory = $item.category }}
     <div class="shopping-category">
       <h3 class="category-heading">{{ $item.category }}</h3>
+      <div class="table-scroll">
       <table class="shopping-table">
         <thead>
           <tr>
@@ -54,6 +56,7 @@
 {{ if ne $currentCategory "" }}
         </tbody>
       </table>
+      </div>
     </div>
 {{ end }}
 {{ end }}

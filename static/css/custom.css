@@ -294,6 +294,23 @@ header .site-desc {
   box-shadow: 0 0 0 2px rgba(217, 158, 115, 0.3);
 }
 
+.btn-clear-row {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.1rem 0.4rem;
+  line-height: 1;
+  border-radius: 3px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.btn-clear-row:hover {
+  color: #c62828;
+  background: rgba(198, 40, 40, 0.1);
+}
+
 .custom-row {
   background: var(--color-tan-light) !important;
 }

@@ -12,9 +12,11 @@
   <p>Enter consumed amounts to track your daily progress. The same targets apply every day.</p>
 </div>
 
+<div class="table-scroll">
 <table class="daily-meals-table">
   <thead>
     <tr>
+      <th></th>
       <th>Food</th>
       <th>Preparation</th>
       <th>Weight</th>
@@ -27,6 +29,7 @@
   <tbody>
     {{ range $.Site.Data.daily_intake.items }}
     <tr data-target="{{ .targetValue }}" data-unit="{{ .unit }}" data-protein="{{ .dailyProtein }}" data-cal="{{ .dailyCal }}">
+      <td></td>
       <td>{{ .food }}</td>
       <td>{{ if .preparation }}<span class="prep-note">{{ .preparation }}</span>{{ else }}&mdash;{{ end }}</td>
       <td>{{ .dailyAmount }}</td>
@@ -41,6 +44,7 @@
     {{ end }}
     {{ range seq 6 }}
     <tr class="custom-row" data-custom-index="{{ sub . 1 }}" data-target="0" data-unit="g" data-protein="0" data-cal="0">
+      <td><button class="btn-clear-row" title="Clear row">&times;</button></td>
       <td><input type="text" class="custom-input custom-food" placeholder="Custom item"></td>
       <td><input type="text" class="custom-input custom-prep" placeholder="—"></td>
       <td><input type="number" class="custom-input custom-target" min="0" step="1" placeholder="0"> <input type="text" class="custom-input custom-unit" value="g" style="width:2.5rem"></td>
@@ -59,6 +63,7 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td id="total-protein"><strong>0 / 185 g</strong></td>
       <td id="total-cal"><strong>0 / 1601 kcal</strong></td>
       <td></td>
@@ -66,6 +71,7 @@
     </tr>
   </tfoot>
 </table>
+</div>
 {{ end }}
 
 {{ define "scripts" }}
